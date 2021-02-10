@@ -1,0 +1,23 @@
+{
+  "name": "tests-cypress",
+  "version": "1.0.0",
+  "description": "Functional tests built to showcase the features and value of the Cypress.io testing framework.\r -->",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/TechSavagery/tests-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/TechSavagery/tests-cypress/issues"
+  },
+  "homepage": "https://gitlab.com/TechSavagery/tests-cypress#readme"
+}
