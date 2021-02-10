@@ -1,17 +1,17 @@
 describe("All Pages Load", () => {
   it("Load Home Page", () => {
-    cy.visit("http://techsavagery.net");
+    cy.visit("https://techsavagery.net");
   });
   it("Load Services Page", () => {
-    cy.visit("http://techsavagery.net/services");
+    cy.visit("https://techsavagery.net/services");
   });
   it("Load About Page", () => {
-    cy.visit("http://techsavagery.net/about");
+    cy.visit("https://techsavagery.net/about");
   });
   it("Load Blog Page", () => {
-    cy.visit("http://techsavagery.net/blog");
+    cy.visit("https://techsavagery.net/blog");
   });
   it("Load Contact Page", () => {
-    cy.visit("http://techsavagery.net/contact");
+    cy.visit("https://techsavagery.net/contact");
   });
 });
