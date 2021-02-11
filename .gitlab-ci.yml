@@ -2,7 +2,7 @@ image: lcxat/ruby-wagon-cypress
 
 cypress:
   script:
-    - npx cypress run --spec cypress/integration/sites/*.js
+    - /node_modules/.bin/cypress run --spec cypress/integration/sites/*.js
   artifacts:
     when: always
     paths:
